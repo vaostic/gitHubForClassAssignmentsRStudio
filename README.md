@@ -1,6 +1,6 @@
 # Using git and GitHub for Class Assignments
 
-A video demonstration of the steps in this assignment is available at: https://youtu.be/4WVnIdRdWFw
+A video demonstration of the steps in this assignment is available at: https://youtu.be/-cy3nvHb4ak
 
 Git is a version control system which runs on your computer. GitHub is an online location for creating and hosting remote repositories. ( https://github.com/ ) Version control systems and remote repositories were created for software development. However remote repositories like GitHub have become an easy way for programmers and other knowledge workers to share information. A great deal of teaching and learning materials are made widely available through GitHub repositories. This includes a lot of resources for statistics and data science. Since so much material you encounter online may be available through GitHub repositories and because online repositories make collaborating on work with other people so easy I have incorporated GitHub into the workflow for this course. We will be using GitHub in this course as a place where you can store your own copy of the assignments we will be completing. Rather than turn files in directly to our course software, you will upload your completed assignments to your GitHub repository for that assignment and turn in the link to your repository so I can go look at it there. I think this arrangement offers some benefits for everyone.
 
