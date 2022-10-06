@@ -71,7 +71,7 @@ Cloning your repository means creating a copy of your GitHub repository on your 
 * A new folder for your repsitory will be created inside the folder you selected.
 * A new RStudio window should open showing the files in the repository folder in the Files tab of the bottom left pane in RStudio.
 
-## Push changes to your GitHub repository using VSCode
+## Push changes to your GitHub repository using RStudio
 
 Once you have the repository on your computer, you can complete your assignment using RStudio and Jamovi. Make sure you save your completed assignment files in your assignment repository folder on your computer. You can use RStudio to push changes in your repository to your remote repository in GitHub.
 
