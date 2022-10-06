@@ -53,50 +53,37 @@ You can manually upload files to GitHub. (If you didn't clone the repository, yo
 
 After you load your completed assignment files to your online repository, you can turn in the link to your assignment repository in our course software.
 
-## Clone your repository using VSCode
+## Clone your repository using RStudio
 
-Cloning your repository means creating a copy of your GitHub repository on your own computer which is linked to your GitHub repository (aka the remote repository). You can do this using git commands in the command line (see https://github.com/cmcntsh/exerGitPractice), but it's a lot simpler using VSCode. (RStudio can do this also, but the interface is not as clean as VSCode and the procedure doesn't run as smoothly. I'm not going to provide instructions for RStudio here.) To use the instructions below you need to have git and VSCode already installed on your computer (see https://github.com/cmcntsh/stats2021_setup).
+Cloning your repository means creating a copy of your GitHub repository on your own computer which is linked to your GitHub repository (aka the remote repository). You can do this using git commands in the command line (see https://github.com/cmcntsh/exerGitPractice), but it's a lot simpler using RStudio. To use the instructions below you need to have git and RStudio already installed on your computer.
 
 * On your own GitHub repository for this assignment, scroll up on the page and click on the green `Code` button. Then click on the copy button at the top of the dropdown menu. It's right next to the little window that has the path. See screenshot below.
 
 ![Download Screenshot](https://github.com/cmcntsh/gitHubForClassAssignments/blob/main/images/downloadZip.png?raw=true)
 
 * Create a new folder on your machine where you want to put this repository if you don't already have one you want to use.
-* In VSCode from the command pallette (Ctrl-Shift-P) run `Git: Clone`
-
-![Command Pallet Screenshot](https://github.com/cmcntsh/gitHubForClassAssignments/blob/main/images/VSCcommand.png?raw=true)
-
-![Git Clone Screenshot](https://github.com/cmcntsh/gitHubForClassAssignments/blob/main/images/VSCgitClone.png?raw=true)
-
-* Paste the path into the path field which pops up
-* Select your new folder you created on your machine
-* VSCode should ask you if you want to open the folder. Select yes.
-* A new folder for the repository with the repository files should be in the folder you selected showing in the Explorer window in VSCode on the left side.
+* In RStudio go to File - New Project... - Version Control - Git 
+  * Paste the repostory URL you just copied into the Repository URL: window.
+  * You can use the name suggested in the Project directory name: window or enter a new one (no spaces in the name).
+  * Click the Browse... button next to the Create project as subdirectory of: window and navigate to the folder where you want to keep your repository and click Open.
+  * Check the Open in new session checkbox. (Bottom left corner of New Project Wizard popup.)
+  * Click Create Project
+* A new folder for your repsitory will be created inside the folder you selected.
+* A new RStudio window should open showing the files in the repository folder in the Files tab of the bottom left pane in RStudio.
 
 ## Push changes to your GitHub repository using VSCode
 
-Once you have the repository on your computer, you can complete your assignment using RStudio and Jamovi. Make sure you save your completed assignment files in your assignment repository folder on your computer. You can use VSCode to push changes in your repository to your remote repository in GitHub.
+Once you have the repository on your computer, you can complete your assignment using RStudio and Jamovi. Make sure you save your completed assignment files in your assignment repository folder on your computer. You can use RStudio to push changes in your repository to your remote repository in GitHub.
 
-* If you're not already in your assignment repository folder in VSCode, open the folder using `File - Open Folder...`
-* Click on the version control button on the left side. See screenshot below.
-
-![Version Control Screenshot](https://github.com/cmcntsh/gitHubForClassAssignments/blob/main/images/VSCversionControl.png?raw=true)
-
-* Enter a commit message in the text box at the top (just below the `SOURCE CONTROL` section). And click on the checkmark. See screenshot below.
-
-![Commit Screenshot](https://github.com/cmcntsh/gitHubForClassAssignments/blob/main/images/VSCcommit.png?raw=true)
-
-* Click on the three dots on the right side of the `SOURCE CONTROL` section for `Views and More Actions...`. See screenshot below.
-
-![More Actions Screenshot](https://github.com/cmcntsh/gitHubForClassAssignments/blob/main/images/VSCMoreActions.png?raw=true)
-
-* Go down to `Pull, Push` and click on `Sync`. See screenshot below.
-
-![Sync Screenshot](https://github.com/cmcntsh/gitHubForClassAssignments/blob/main/images/VSCsync.png?raw=true)
-
-* Be patient. It takes a few seconds to run.
-* Check your online repository. You should see your updated files.
-* You can now turn in the link to your assignment repository in our course software.
+* (Instructions from: https://resources.github.com/github-and-rstudio/)
+* In RStudio click the Git tab in the upper right pane.
+* Click Commit.
+* In the Review changes view, check the staged box for all files.
+* Add a commit message, for example "Upload completed assignment".
+* Click Commit.
+* Click the Pull button to fetch any remote changes.
+* Click the Push button to push your changes to the remote repository.
+* On GitHub, navigate to the Code tab of the repository to see the changes.
 
 ## Turn in the Assignment Link
 
