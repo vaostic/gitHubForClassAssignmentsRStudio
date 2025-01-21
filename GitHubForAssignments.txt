@@ -1,0 +1,1 @@
+Based off of the instructions, I am going to try the RStudio integrated way, as it is most similar to what I am familiar with after using github with VSC.
